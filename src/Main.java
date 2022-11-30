@@ -63,5 +63,15 @@ public class Main {
         weightDifference1 = weightBoxer2 % weightBoxer1;
         System.out.println("Разница в весе 2й вариант = " + weightDifference1);
 
+        System.out.println("----Домашнее задание 3 Задача 8----");
+
+        var totalHours = 640;
+        var hoursPerEmployee = 8;
+        var totalEmployee = totalHours / hoursPerEmployee;
+        System.out.println("Всего работников в компании – " + totalEmployee +" человек");
+        totalEmployee = totalEmployee + 94;
+        System.out.println("Если в компании работает "+ totalEmployee + " человек, то всего "+ totalEmployee * hoursPerEmployee +
+                " часов работы может быть поделено между сотрудниками");
+
     }
 }
