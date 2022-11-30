@@ -53,11 +53,15 @@ public class Main {
         System.out.println("----Домашнее задание 3 Задача 6----");
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
-        System.out.println("Общий вес = " + weightBoxer1 + weightBoxer2);
+        System.out.println("Общий вес = " + (weightBoxer1 + weightBoxer2));
         var weightDifference = Math.abs(weightBoxer1 - weightBoxer2);
         System.out.println("Разница в весе = " + weightDifference);
 
-
+        System.out.println("----Домашнее задание 3 Задача 7----");
+        var weightDifference1 = weightBoxer2 - weightBoxer1;
+        System.out.println("Разница в весе 1й вариант = " + weightDifference1);
+        weightDifference1 = weightBoxer2 % weightBoxer1;
+        System.out.println("Разница в весе 2й вариант = " + weightDifference1);
 
     }
 }
