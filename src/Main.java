@@ -50,5 +50,14 @@ public class Main {
         frog = frog + 4;
         System.out.println("frog = " + frog);
 
+        System.out.println("----Домашнее задание 3 Задача 6----");
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+        System.out.println("Общий вес = " + weightBoxer1 + weightBoxer2);
+        var weightDifference = Math.abs(weightBoxer1 - weightBoxer2);
+        System.out.println("Разница в весе = " + weightDifference);
+
+
+
     }
 }
